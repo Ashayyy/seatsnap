@@ -1,0 +1,199 @@
+2024-02-21 00:19:27.057  INFO 21348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 00:19:27.073  INFO 21348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21 00:19:27.092  INFO 21348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2024-02-21 00:19:27.403  WARN 21348 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Password must be at least 8 characters', propertyPath=password, rootBeanClass=class com.app.entities.User, messageTemplate='Password must be at least 8 characters'}<EOL>]]
+2024-02-21 00:19:31.479  WARN 21348 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Password must be at least 8 characters', propertyPath=password, rootBeanClass=class com.app.entities.User, messageTemplate='Password must be at least 8 characters'}<EOL>]]
+2024-02-21 00:53:26.638  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21 00:53:26.718  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-21 00:53:26.720  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-21 00:53:26.723  WARN 21348 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.12/java.lang.Thread.run(Thread.java:834)
+2024-02-21 00:53:26.724  WARN 21348 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.12/java.lang.Thread.run(Thread.java:834)
+2024-02-21 00:53:26.729  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 00:53:26.731  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21 00:53:26.734  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-21 08:11:02.752  INFO 1612 --- [restartedMain] com.app.Application                      : Starting Application using Java 11.0.12 on DESKTOP-S4UNUFA with PID 1612 (D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick\target\classes started by Harsh in D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick)
+2024-02-21 08:11:02.755  INFO 1612 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21 08:11:02.779  INFO 1612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21 08:11:02.779  INFO 1612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21 08:11:03.140  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 08:11:03.176  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 6 JPA repository interfaces.
+2024-02-21 08:11:03.445  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 08:11:03.451  INFO 1612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21 08:11:03.451  INFO 1612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2024-02-21 08:11:03.518  INFO 1612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21 08:11:03.518  INFO 1612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 738 ms
+2024-02-21 08:11:03.588  INFO 1612 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21 08:11:03.618  INFO 1612 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-02-21 08:11:03.718  INFO 1612 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-21 08:11:03.771  INFO 1612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21 08:11:03.868  INFO 1612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21 08:11:03.876  INFO 1612 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-21 08:11:04.281  INFO 1612 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-21 08:11:04.285  INFO 1612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 08:11:04.957  INFO 1612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21 08:11:04.976  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 08:11:04.983  INFO 1612 --- [restartedMain] com.app.Application                      : Started Application in 2.443 seconds (JVM running for 3.101)
+2024-02-21 09:00:11.246  INFO 1612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 09:00:11.262  INFO 1612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21 09:00:11.262  INFO 1612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21 09:50:47.913  WARN 1612 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.Movie] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Duration must be a positive integer', propertyPath=durationMinutes, rootBeanClass=class com.app.entities.Movie, messageTemplate='Duration must be a positive integer'}<EOL>]]
+2024-02-21 11:03:04.468  INFO 1612 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21 11:03:04.605  INFO 1612 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-21 11:03:04.606  INFO 1612 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-21 11:03:04.636  INFO 1612 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 11:03:04.641  INFO 1612 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21 11:03:04.647  INFO 1612 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-21 11:09:59.324  INFO 22312 --- [restartedMain] com.app.Application                      : Starting Application using Java 11.0.12 on DESKTOP-S4UNUFA with PID 22312 (D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick\target\classes started by Harsh in D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick)
+2024-02-21 11:09:59.325  INFO 22312 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21 11:09:59.348  INFO 22312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21 11:09:59.349  INFO 22312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21 11:09:59.692  INFO 22312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 11:09:59.731  INFO 22312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 6 JPA repository interfaces.
+2024-02-21 11:09:59.999  INFO 22312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 11:10:00.004  INFO 22312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21 11:10:00.004  INFO 22312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2024-02-21 11:10:00.067  INFO 22312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21 11:10:00.067  INFO 22312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 718 ms
+2024-02-21 11:10:00.136  INFO 22312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21 11:10:00.159  INFO 22312 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-02-21 11:10:00.234  INFO 22312 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-21 11:10:00.285  INFO 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21 11:10:00.391  INFO 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21 11:10:00.400  INFO 22312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-21 11:10:00.824  INFO 22312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-21 11:10:00.829  INFO 22312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 11:10:01.482  INFO 22312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21 11:10:01.504  INFO 22312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 11:10:01.510  INFO 22312 --- [restartedMain] com.app.Application                      : Started Application in 2.392 seconds (JVM running for 2.976)
+2024-02-21 11:10:20.376  INFO 22312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 11:10:20.376  INFO 22312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21 11:10:20.376  INFO 22312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21 13:03:05.408  WARN 22312 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m33s995ms29µs500ns).
+2024-02-21 13:20:16.023  INFO 22312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-02-21 13:20:16.122  INFO 22312 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-21 13:20:16.125  INFO 22312 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-21 13:20:16.141  INFO 22312 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 13:20:16.146  INFO 22312 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21 13:20:16.150  INFO 22312 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-21 13:20:16.260  INFO 22312 --- [restartedMain] com.app.Application                      : Starting Application using Java 11.0.12 on DESKTOP-S4UNUFA with PID 22312 (D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick\target\classes started by Harsh in D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick)
+2024-02-21 13:20:16.260  INFO 22312 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21 13:20:16.370  INFO 22312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 13:20:16.384  INFO 22312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 6 JPA repository interfaces.
+2024-02-21 13:20:16.425  INFO 22312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 13:20:16.426  INFO 22312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21 13:20:16.426  INFO 22312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2024-02-21 13:20:16.435  INFO 22312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21 13:20:16.435  INFO 22312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2024-02-21 13:20:16.452  INFO 22312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21 13:20:16.455  INFO 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-02-21 13:20:16.459  INFO 22312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-02-21 13:20:16.459  INFO 22312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-21 13:20:16.516  INFO 22312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-21 13:20:16.517  INFO 22312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 13:20:16.823  INFO 22312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21 13:20:16.829  INFO 22312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 13:20:16.831  INFO 22312 --- [restartedMain] com.app.Application                      : Started Application in 0.588 seconds (JVM running for 7818.297)
+2024-02-21 13:20:16.832  INFO 22312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-21 13:20:27.835  INFO 22312 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21 13:20:27.926  INFO 22312 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-21 13:20:27.931  INFO 22312 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 13:20:27.932  INFO 22312 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-02-21 13:20:27.934  INFO 22312 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-02-21 13:20:36.891  INFO 23928 --- [restartedMain] com.app.Application                      : Starting Application using Java 11.0.12 on DESKTOP-S4UNUFA with PID 23928 (D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick\target\classes started by Harsh in D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick)
+2024-02-21 13:20:36.892  INFO 23928 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21 13:20:36.916  INFO 23928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21 13:20:36.916  INFO 23928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21 13:20:37.276  INFO 23928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 13:20:37.311  INFO 23928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 6 JPA repository interfaces.
+2024-02-21 13:20:37.572  INFO 23928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 13:20:37.578  INFO 23928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21 13:20:37.578  INFO 23928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2024-02-21 13:20:37.642  INFO 23928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21 13:20:37.642  INFO 23928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 726 ms
+2024-02-21 13:20:37.709  INFO 23928 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21 13:20:37.731  INFO 23928 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-02-21 13:20:37.810  INFO 23928 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-21 13:20:37.858  INFO 23928 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21 13:20:37.984  INFO 23928 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21 13:20:37.992  INFO 23928 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-21 13:20:38.406  INFO 23928 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-21 13:20:38.422  INFO 23928 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 13:20:39.069  INFO 23928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21 13:20:39.090  INFO 23928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 13:20:39.096  INFO 23928 --- [restartedMain] com.app.Application                      : Started Application in 2.412 seconds (JVM running for 2.938)
+2024-02-21 13:24:20.758  INFO 23928 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 13:24:20.758  INFO 23928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21 13:24:20.758  INFO 23928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21 13:39:26.939  WARN 23928 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.Showtime] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='End time must be in the future', propertyPath=endTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='End time must be in the future'}<EOL>]]
+2024-02-21 13:39:53.302  WARN 23928 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.Showtime] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='End time must be in the future', propertyPath=endTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='End time must be in the future'}<EOL>?ConstraintViolationImpl{interpolatedMessage='Start time must be in the future', propertyPath=startTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='Start time must be in the future'}<EOL>]]
+2024-02-21 13:40:03.116  WARN 23928 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.Showtime] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Start time must be in the future', propertyPath=startTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='Start time must be in the future'}<EOL>?ConstraintViolationImpl{interpolatedMessage='End time must be in the future', propertyPath=endTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='End time must be in the future'}<EOL>]]
+2024-02-21 13:40:03.790  WARN 23928 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.Showtime] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Start time must be in the future', propertyPath=startTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='Start time must be in the future'}<EOL>?ConstraintViolationImpl{interpolatedMessage='End time must be in the future', propertyPath=endTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='End time must be in the future'}<EOL>]]
+2024-02-21 13:50:00.177  INFO 23928 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21 13:50:00.255  INFO 23928 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-21 13:50:00.257  INFO 23928 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-21 13:50:00.264  INFO 23928 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 13:50:00.266  INFO 23928 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21 13:50:00.270  INFO 23928 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-21 13:53:47.921  INFO 23072 --- [restartedMain] com.app.Application                      : Starting Application using Java 11.0.12 on DESKTOP-S4UNUFA with PID 23072 (D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick\target\classes started by Harsh in D:\C-DAC\SeatSnap\BookMyFlick-master\BookMyFlick\src\bookmyflick)
+2024-02-21 13:53:47.921  INFO 23072 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21 13:53:47.944  INFO 23072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21 13:53:47.944  INFO 23072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21 13:53:48.314  INFO 23072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 13:53:48.353  INFO 23072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 6 JPA repository interfaces.
+2024-02-21 13:53:48.622  INFO 23072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 13:53:48.627  INFO 23072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21 13:53:48.627  INFO 23072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2024-02-21 13:53:48.690  INFO 23072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21 13:53:48.690  INFO 23072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 745 ms
+2024-02-21 13:53:48.759  INFO 23072 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21 13:53:48.782  INFO 23072 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-02-21 13:53:48.861  INFO 23072 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-21 13:53:48.912  INFO 23072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21 13:53:49.022  INFO 23072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21 13:53:49.032  INFO 23072 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-21 13:53:49.527  INFO 23072 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-21 13:53:49.544  INFO 23072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 13:53:50.190  INFO 23072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21 13:53:50.212  INFO 23072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 13:53:50.218  INFO 23072 --- [restartedMain] com.app.Application                      : Started Application in 2.542 seconds (JVM running for 3.021)
+2024-02-21 13:54:03.667  INFO 23072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 13:54:03.667  INFO 23072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21 13:54:03.667  INFO 23072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21 14:12:28.611  WARN 23072 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m9s350ms836µs800ns).
+2024-02-21 14:12:55.341  WARN 23072 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Username must be between 4 and 50 characters', propertyPath=username, rootBeanClass=class com.app.entities.User, messageTemplate='Username must be between 4 and 50 characters'}<EOL>?ConstraintViolationImpl{interpolatedMessage='Password must be at least 8 characters', propertyPath=password, rootBeanClass=class com.app.entities.User, messageTemplate='Password must be at least 8 characters'}<EOL>?ConstraintViolationImpl{interpolatedMessage='Phone number must be a 10-digit number', propertyPath=phoneNumber, rootBeanClass=class com.app.entities.User, messageTemplate='Phone number must be a 10-digit number'}<EOL>]]
+2024-02-21 14:13:06.846  WARN 23072 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Password must be at least 8 characters', propertyPath=password, rootBeanClass=class com.app.entities.User, messageTemplate='Password must be at least 8 characters'}<EOL>?ConstraintViolationImpl{interpolatedMessage='Username must be between 4 and 50 characters', propertyPath=username, rootBeanClass=class com.app.entities.User, messageTemplate='Username must be between 4 and 50 characters'}<EOL>]]
+2024-02-21 14:13:12.535  WARN 23072 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Username must be between 4 and 50 characters', propertyPath=username, rootBeanClass=class com.app.entities.User, messageTemplate='Username must be between 4 and 50 characters'}<EOL>]]
+2024-02-21 14:13:16.769  WARN 23072 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Username must be between 4 and 50 characters', propertyPath=username, rootBeanClass=class com.app.entities.User, messageTemplate='Username must be between 4 and 50 characters'}<EOL>]]
+2024-02-21 14:13:26.081  WARN 23072 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Username must be between 4 and 50 characters', propertyPath=username, rootBeanClass=class com.app.entities.User, messageTemplate='Username must be between 4 and 50 characters'}<EOL>]]
+2024-02-21 14:28:47.981  WARN 23072 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s201ms776µs600ns).
+2024-02-21 14:40:35.234  WARN 23072 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2024-02-21 14:40:35.234 ERROR 23072 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry 'admin1' for key 'user.UK_sb8bbouer5wak8vyiiy4pf2bx'
+2024-02-21 14:40:35.234  WARN 23072 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [user.UK_sb8bbouer5wak8vyiiy4pf2bx]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2024-02-21 14:55:54.274  WARN 23072 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Phone number must be a 10-digit number', propertyPath=phoneNumber, rootBeanClass=class com.app.entities.User, messageTemplate='Phone number must be a 10-digit number'}<EOL>]]
+2024-02-21 14:56:03.494  WARN 23072 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.User] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='Phone number must be a 10-digit number', propertyPath=phoneNumber, rootBeanClass=class com.app.entities.User, messageTemplate='Phone number must be a 10-digit number'}<EOL>]]
+2024-02-21 14:58:44.489  WARN 23072 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [javax.validation.ConstraintViolationException: Validation failed for classes [com.app.entities.Showtime] during persist time for groups [javax.validation.groups.Default, ]<EOL>List of constraint violations:[<EOL>?ConstraintViolationImpl{interpolatedMessage='End time must be in the future', propertyPath=endTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='End time must be in the future'}<EOL>?ConstraintViolationImpl{interpolatedMessage='Start time must be in the future', propertyPath=startTime, rootBeanClass=class com.app.entities.Showtime, messageTemplate='Start time must be in the future'}<EOL>]]
+2024-02-21 16:59:17.064  WARN 23072 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m56s998ms666µs400ns).
+2024-02-21 17:00:29.986  INFO 23072 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21 17:00:30.105  INFO 23072 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-21 17:00:30.109  INFO 23072 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-21 17:00:30.133  INFO 23072 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 17:00:30.143  INFO 23072 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21 17:00:30.148  INFO 23072 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
